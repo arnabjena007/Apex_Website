@@ -190,19 +190,27 @@ header nav button.menu_toggle.active span.menu_toggle_icon::after {
     transform 0.1s 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-/* ********************************* Responsive Medias ********************************* */
-@media (min-width: 768px) {
-  .landing-right {
-    width: 100% !important;
+/* ********************************* Header Mobile Navbar ********************************* */
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.8rem 2rem; /* Reduce padding for smaller screens */
+  }
+
+  header nav div.navbar_menus {
+    padding: 1rem 2rem; /* Adjust padding for smaller screens */
+    transform: translateY(15%);
+  }
+
+  header nav button.menu_toggle {
+    margin-right: 1rem; /* Add margin between menu toggle button and brand/logo */
   }
 }
 
-@media (max-width: 480px) {
-  .landing-right {
-    width: 100% !important;
-  }
-}
-  }
-}
+/* ********************************* Header Nav Hamburger ********************************* */
 
-/* ********************************* Styles End ********************************* */
+@media (max-width: 768px) {
+  header nav button.menu_toggle {
+    margin-right: 1rem; /* Add margin between menu toggle button and brand/logo */
+  }
+}
