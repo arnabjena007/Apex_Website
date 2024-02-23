@@ -261,17 +261,27 @@ footer .footer_contact .social_links a:hover {
 
 /* ********************************* Responsive Medias ********************************* */
 @media (max-width: 768px) {
-  footer .footer_main,
   footer .footer_desc,
   footer .footer_links,
   footer .footer_contact {
     flex-basis: 100%;
+    margin-bottom: 2rem;
   }
-  
-  footer .footer_main,
+
+  footer .footer_main {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
   footer .footer_desc,
   footer .footer_links,
   footer .footer_contact {
-    margin-bottom: 2rem; /* Add margin between sections */
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+
+  footer .footer_main {
+    display: none;
   }
 }
