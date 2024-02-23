@@ -158,13 +158,13 @@ forth-letter {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .landing-right {
       width: 100% !important;
     }
 
     .landing-left > img {
-      min-width: 250px; /* Adjust minimum width for smaller screens */
+      min-width: 480px; /* Adjust minimum width for smaller screens */
     }
 }
 
