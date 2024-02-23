@@ -273,7 +273,7 @@ footer .footer_contact .social_links a:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   footer .footer_desc,
   footer .footer_links,
   footer .footer_contact {
