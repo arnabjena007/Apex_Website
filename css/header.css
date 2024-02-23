@@ -191,60 +191,17 @@ header nav button.menu_toggle.active span.menu_toggle_icon::after {
 }
 
 /* ********************************* Responsive Medias ********************************* */
-
-@media (max-width: 1240px) {
-  header {
-    padding: 0.8rem 3rem;
-  }
-
-  header nav div.navbar_menus a {
-    margin: auto 0.3rem;
-    padding: 0.5rem 1rem;
-  }
-}
-
-@media (max-width: 992px) {
-  header {
-    padding: 1rem 3rem;
-  }
-
-  header nav a.navbar_brand img {
-    width: 6.5rem;
-  }
-  header nav a.navbar_brand span {
-    display: none;
-  }
-  header nav div.navbar_menus a::after {
-    height: 3px;
-  }
-}
-
 @media (min-width: 768px) {
-  header nav button.menu_toggle {
-    display: none;
+  .landing-right {
+    width: 100% !important;
   }
 }
 
-@media (max-width: 768px) {
-  header {
-    padding: 0;
-  }
-
-  header nav div.navbar_menus a {
-    margin: 0.8rem auto;
-    font-size: 2rem;
-    width: 100%;
-  }
-
-  header nav a.navbar_brand,
-  header nav button.menu_toggle {
-    margin: 2rem;
+@media (max-width: 480px) {
+  .landing-right {
+    width: 100% !important;
   }
 }
-
-@media (max-width: 472px) {
-  header nav div.navbar_menus {
-    padding: 1rem 4rem;
   }
 }
 
