@@ -260,14 +260,18 @@ footer .footer_contact .social_links a:hover {
 }
 
 /* ********************************* Responsive Medias ********************************* */
-@media (min-width: 768px) {
-  .landing-right {
-    width: 100% !important;
+@media (max-width: 768px) {
+  footer .footer_main,
+  footer .footer_desc,
+  footer .footer_links,
+  footer .footer_contact {
+    flex-basis: 100%;
   }
-}
-
-@media (max-width: 480px) {
-  .landing-right {
-    width: 100% !important;
+  
+  footer .footer_main,
+  footer .footer_desc,
+  footer .footer_links,
+  footer .footer_contact {
+    margin-bottom: 2rem; /* Add margin between sections */
   }
 }
