@@ -124,14 +124,41 @@ forth-letter {
   }
 }
 
-@media (min-width: 768px) {
+/* ********************************* Home Page Styles ********************************* */
+
+/* Add media query for screens with a maximum width of 768px */
+
+@media (max-width: 768px) {
+  .landing-wrapper {
+    margin: 40px 20px; /* Reduce margin for smaller screens */
+  }
+
+  .landing-left {
+    flex: 1; /* Expand the left section to take full width */
+    margin-bottom: 30px; /* Add margin at the bottom of the left section */
+  }
+
+  .landing-left > img {
+    width: 100%; /* Make the image fill the width of the container */
+    min-width: unset; /* Unset minimum width */
+  }
+
   .landing-right {
-    width: 100% !important;
+    flex: 1; /* Expand the right section to take full width */
+    margin: 0; /* Remove margin */
+    padding: 30px; /* Adjust padding */
+    border-radius: 0; /* Remove border-radius */
+  }
+
+  .landing-right > h1 {
+    font-size: 32px; /* Decrease font size */
+    margin-top: 15px; /* Adjust margin */
+  }
+
+  .landing-right > p {
+    font-size: 16px; /* Decrease font size */
+    line-height: 26px; /* Decrease line height */
   }
 }
 
-@media (max-width: 480px) {
-    .landing-right {
-      width: 100% !important;
-    }
-}
+/* ********************************* Styles End ********************************* */
