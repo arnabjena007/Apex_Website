@@ -29,7 +29,7 @@
 - Easy to customize
 - Lightweight and fast
 
-<!-- TABLE OF CONTENTS -->
+## Table of Contents
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
