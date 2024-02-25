@@ -19,7 +19,6 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)
 [![Firestore](https://img.shields.io/badge/Firestore-%23563D7C.svg?style=for-the-badge&logo=firestore&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)
 
-
 ## 🖼️ Sneak Peek of Pages
 
 ## 📬 Contact Me
