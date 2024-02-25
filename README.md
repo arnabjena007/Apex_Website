@@ -23,8 +23,6 @@
 ## 📬 Contact Me
 - [LinkedIn](https://www.linkedin.com/in/arnabjena/)
 
-[![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
-
 ## Features
 - Clean and minimal design
 - Responsive layout
