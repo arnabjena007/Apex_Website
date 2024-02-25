@@ -147,6 +147,45 @@ section#banner div.banner.loaded a.btn_start {
     font-size: 1rem;
     clip-path: none; 
   }
+ 
+ @media (max-width: 768px) {
+  section#banner div.banner h1 span {
+    font-size: 5rem;
+  }
+  
+  section#banner div.banner h2 span {
+    font-size: 2rem;
+  }
+  
+  section#banner div.banner h4 {
+    font-size: 2rem;
+  }
+  
+  section#banner div.banner a.btn_start {
+    padding: 0.6rem 2.2rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section#banner div.banner h1 span {
+    font-size: 5rem;
+  }
+  
+  section#banner div.banner h2 span {
+    font-size: 2rem;
+  }
+  
+  section#banner div.banner h4 {
+    font-size: 2rem;
+  }
+  
+  section#banner div.banner a.btn_start {
+    padding: 0.6rem 2.2rem;
+    font-size: 2rem;
+  }
+}
+
 }
 
 @keyframes line_forward {
