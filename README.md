@@ -1,16 +1,7 @@
-<div align="center">
-  <a href="https://hacktoberfest.digitalocean.com/">
-    <img 
-      src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" 
-      alt="Banner" 
-      width="60%"/>
-  </a>
-</div>
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/APEXjgec">
+  <a href="">
     <img src="./assets/logo.svg" alt="Logo" width="400" height="250">
   </a>
   <h1 align="center">APEX COMMUNITY Website</h1>
