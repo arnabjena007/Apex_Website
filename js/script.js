@@ -1,7 +1,8 @@
-import { initializeApp } from 'firebase/app';
-// Navbar Toogle for All Pages *****************************
+
+// Navbar Toogle for All Pages ***********************
+
 let menuBtn = document.querySelector("button.menu_toggle");
-console.log("Hello")
+
 menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("active");
 });
