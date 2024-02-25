@@ -68,98 +68,93 @@ The tech stack we will be using:
 
 - Always maintain the **file format & folder structure.**
 - Maintain proper file names (i.e, for images).
-- Don't use capital or spaces for files names instead use `_` or `-`.
 
 ---
 
+<!-- GETTING STARTED -->
+
+```
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
 Below are the steps to follow to contribute to this project:
 
-**1.** Fork [this](https://github.com/APEXjgec/APEXjgec.github.io) repository.
+1. **Fork [this repository](https://github.com/arnabjena007/Apex_Website)** 🍴.
 
-**2.** Clone your forked copy of the project.
+2. **Clone your forked copy of the project**.
+   ```shell
+   git clone https://github.com/<your_user_name>/APEX.github.io.git
+   ```
+   Replace `<your_user_name>` with your GitHub username.
 
-```
-git clone https://github.com/<your_user_name>/APEXjgec.github.io.git
-```
+3. **Navigate to the project directory** 📁.
+   ```shell
+   cd APEXjgec.github.io
+   ```
 
-where `your_user_name` is your GitHub username.
+4. **Add a reference(remote) to the original repository**.
+   ```shell
+   git remote add upstream https://github.com/APEXjgec/APEXjgec.github.io.git
+   ```
 
-**3.** Navigate to the project directory :file_folder: .
+5. **Check the remotes for this repository**.
+   ```shell
+   git remote -v
+   ```
 
-```
-cd APEXjgec.github.io
-```
+6. **Always fetch changes from the upstream repository to keep your local copy updated**.
+   ```shell
+   git fetch upstream
+   ```
 
-**4.** Add a reference(remote) to the original repository.
+7. **Merge the changes from the upstream repository to your main branch**.
+   ```shell
+   git merge upstream/main
+   ```
 
-```
-git remote add upstream https://github.com/APEXjgec/APEXjgec.github.io.git
-```
+8. **Create a new branch for your work** 🌿.
+   ```shell
+   git checkout -b <your_branch_name>
+   ```
 
-**5.** Check the remotes for this repository.
+9. **Make necessary changes and commit those changes** 🛠️.
+   ```shell
+   git add .
+   git commit -m "Your commit message"
+   ```
 
-```
-git remote -v
-```
+10. **Push the committed changes to your feature branch on your remote repository**.
+    ```shell
+    git push -u origin <your_branch_name>
+    ```
 
-**6.** Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository).
+11. **Create a pull request**.
+    - Go to the GitHub page of your forked repository.
+    - Click on the "New pull request" button.
+    - Select the base branch and your feature branch for the pull request.
 
-```
-git pull upstream main
-```
+12. **Add appropriate title and description to your pull request explaining your changes and efforts**.
 
-**7.** Create a new branch.
+13. **Click on `Create Pull Request`**.
 
-```
-git checkout -b <your_branch_name>
-```
-
-**8.** Make necessary changes and commit those changes
-
-**9.** Track your changes.
-
-```
-git add .
-```
-
-**10.** Commit your changes .
-
-```
-git commit -m "Commit message"
-```
-
-**11.** Push the committed changes in your feature branch to your remote repo.
-
-```
-git push -u origin <your_branch_name>
-```
-
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
-
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
-
-**14.** Click on `Create Pull Request`.
-
-**15.** And you are done creating a pull request to this project. Be patient while we review your code and merge the changes.
+14. **Congratulations! You've created a pull request** 🎉. Be patient while we review your code and merge the changes.
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/APEXjgec) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/APEXjgec) for a list of proposed features and known issues.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the [MIT License](LICENSE).
 
 <!-- CONTACT -->
 
 ## Contact
 
-Mail us at - APEX@COMMUNITY.ac.in
+If you have any questions or concerns, feel free to email us at APEX@COMMUNITY.ac.in 📧.
+```
