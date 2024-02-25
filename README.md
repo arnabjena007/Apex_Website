@@ -16,7 +16,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/arnabjena007/Portfolio-Website/search?l=javascript)&nbsp;
 [![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=javascript)&nbsp;
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)
-[![Firestore](https://img.shields.io/badge/Firestore-Enabled-blue)](https://firebase.google.com/docs/firestore)
+[![Firestore](https://img.shields.io/badge/Firestore-%23FFA500.svg?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/firestore)
+
+
 
 
 ## 🖼️ Sneak Peek of Pages
