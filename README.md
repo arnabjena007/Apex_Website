@@ -8,6 +8,29 @@
   <h1 align="center">APEX COMMUNITY Website</h1>
 </p>
 
+## Portfolio Website 🔗
+[**Visit Now** 🚀]()
+
+## 🛠️ Tech Stack
+[![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=html)&nbsp;
+[![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)&nbsp;
+[![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/arnabjena007/Portfolio-Website/search?l=javascript)&nbsp;
+[![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=javascript)&nbsp;
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)
+
+### 🖼️ Sneak Peek of Pages
+
+## 📬 Contact Me
+- [LinkedIn](https://www.linkedin.com/in/arnabjena/)
+
+[![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
+
+## Features
+- Clean and minimal design
+- Responsive layout
+- Easy to customize
+- Lightweight and fast
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
