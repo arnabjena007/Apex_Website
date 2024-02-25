@@ -12,7 +12,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer_main{
+.footer_main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -131,7 +131,7 @@ footer .footer_links h2 {
   font-size: 2.3rem;
   font-weight: 600;
   font-family: 'inter', sans-serif;
-  color: var(--darkwhite);
+  color: white;
   text-align: center;
   letter-spacing: 0.5px;
 }
@@ -248,7 +248,7 @@ footer .footer_contact .social_links a:hover {
   transform: scale(1.1);
 }
 
-.footer_copyright{
+.footer_copyright {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -256,16 +256,80 @@ footer .footer_contact .social_links a:hover {
   align-items: center;
   color: white;
   font-size: medium;
-
 }
 
 /* ********************************* Responsive Medias ********************************* */
 
-@media (max-width: 768px) {
+@media (max-width: 1240px) {
+  footer .footer_desc {
+    flex-basis: 40%;
+  }
+  footer .footer_contact {
+    flex-basis: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  footer .footer_desc {
+    margin: 2rem 0;
+    flex-basis: 50%;
+  }
+  footer .footer_links {
+    margin: 2rem 0;
+    flex-basis: 30%;
+  }
+  footer .footer_contact {
+    margin: 2rem 0;
+    flex-basis: auto;
+  }
+}
+
+@media (max-width: 572px) {
+  footer {
+    justify-content: flex-start;
+  }
+
+  footer .footer_desc,
+  footer .footer_links {
+    flex-basis: auto;
+  }
+
+  footer .footer_contact {
+    margin: 2rem 4rem;
+  }
+
+  footer .footer_links span {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 470px) {
   footer .footer_desc,
   footer .footer_links,
   footer .footer_contact {
-    flex-basis: 100%;
-    margin-bottom: 2rem; /* Add margin between sections */
+    margin: 1rem 0;
   }
 }
+
+@media (max-width: 572px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer_desc,
+  .footer_contact {
+    display: none;
+  }
+
+  footer .footer_links h2,
+  footer .footer_links span {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+}
+
+/* ********************************* Styles End ********************************* */
