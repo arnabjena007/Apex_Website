@@ -134,4 +134,8 @@ forth-letter {
     .landing-right {
       width: 100% !important;
     }
+
+    .landing-left > img {
+      display: none;
+    }
 }
