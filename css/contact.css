@@ -284,7 +284,7 @@ div.contact div.contact_form .follow .social_link a:hover {
   margin: 20px auto; 
 }
 
-@media (max-width: 472px) {
+@media (max-width: 480px) {
   div.contact div.contact_form form {
     padding: 2rem 1rem;
   }
@@ -297,7 +297,11 @@ div.contact div.contact_form .follow .social_link a:hover {
   div.contact div.contact_form {
     box-shadow: 0 2px 4px rgba(50, 69, 107, 0.6);
   }
-}
+
+  .map-heading p,
+  .map-container{
+  display: none;
+  }
 
 
 /* ********************************* Styles End ********************************* */
