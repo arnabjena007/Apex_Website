@@ -17,6 +17,7 @@
 [![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=javascript)&nbsp;
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)
 [![Firestore](https://img.shields.io/badge/Firestore-%23FFA500.svg?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/firestore)
+[![Vercel](https://img.shields.io/badge/Vercel-%23FF0000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
 
 
