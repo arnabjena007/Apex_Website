@@ -10,9 +10,8 @@
 ## Portfolio Website 🔗
 [**Visit Now**](https://apex-website-gules.vercel.app/)
 
-<div align="center">
 ## 🛠️ Tech Stack
-
+<div align="center">
 [![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)&nbsp;
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/arnabjena007/Portfolio-Website/search?l=javascript)&nbsp;
