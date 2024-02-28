@@ -184,4 +184,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or concerns, feel free to email us at APEX@COMMUNITY.ac.in 📧.
 
-<p align="center">Made with ❤️ | Hosted on [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/your-repo)</p>
+<p align="center">Made with ❤️ | Hosted on <a href="https://apex-website-gules.vercel.app/">Vercel</a></p>
