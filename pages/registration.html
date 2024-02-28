@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Site Title -->
+  <title>Registration | APEX COMMUNITY</title>
+  <!-- Favicon-->
+  <link rel="shortcut icon" type="image/svg" href="../assets/logo.svg" />
+
+  <!-- Meta Character & Device Dimension -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+  <!-- Meta Author, Description, Keywords -->
+  <meta name="author" content="APEX COMMUNITY" />
+  <meta name="description" content="Welcome to Official Website of APEX COMMUNITY" />
+  <meta name="keywords" content="APEX, COMMUNITY" />
+
+  <!-- Meta OG: Site, Title, Description, Image, Link Displayed -->
+  <meta property="og:site_name" content="APEX" />
+  <meta property="og:title" content="APEX COMMUNITY" />
+  <meta property="og:description" content="Welcome to APEX COMMUNITY" />
+  <meta property="og:image" content="https://APEX.github.io/assets/opengraph.png" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
+
+  <!-- Address Bar/Tab Color -->
+  <!-- Mobile -->
+  <meta name="theme-color" content="#FFFFFF" />
+  <!-- Windows -->
+  <meta name="msapplication-navbutton-color" content="#FFFFFF" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../css/settings.css" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/about.css" />
+  <link rel="stylesheet" href="../css/registration.css" />
+
+  <!-- Main JS -->
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="../js/script.js"></script>
+  <script defer src="../js/registration.js"></script>
+  <script defer src="../js/server.js"></script>
+  <script defer src="../js/app.js"></script>
+  <script src="register.js"></script>
+</head>
+
+<body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getFirestore,collection, addDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+    //import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  
+    // Required for side-effect
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAXWaf0mZch02VMFwTh5RjNdXUAlg1a_gE",
+      authDomain: "apex-4039a.firebaseapp.com",
+      projectId: "apex-4039a",
+      storageBucket: "apex-4039a.appspot.com",
+      messagingSenderId: "1068797957916",
+      appId: "1:1068797957916:web:84b14840071122effc8cd9",
+      measurementId: "G-9D4L18VBVW"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db=getFirestore(app);
+    //const analytics = getAnalytics(app);
+  
+    async function register() {
+      // Get form input values
+      var name = document.getElementById('nameInput').value;
+      var registrationNumber = document.getElementById('registrationNumberInput').value;
+      var phoneNumber = document.getElementById('phoneNumberInput').value;
+      var learnerEmail = document.getElementById('learnerEmailInput').value;
+      var year = document.getElementById('yearSelect').value;
+      var branch = document.getElementById('branchSelect').value;
+      var password = document.getElementById('passwordInput').value;
+      var confirmPassword = document.getElementById('confirmPasswordInput').value;
+
+      if(!name || !registrationNumber || !phoneNumber || !learnerEmail || !year || !branch || !password || !confirmPassword) {
+        alert("One of the fields is empty");
+      } else if (name.length > 50) {
+        alert("Name should be at most 50 characters long");
+      } else if (phoneNumber.length !== 10) {
+        alert("Phone number should be 10 digits long");
+      } else if (password !== confirmPassword) {
+        alert("Passwords do not match");
+      } else {
+        try {
+          const docRef = await addDoc(collection(db, "users"), {
+            fullName: name,
+            regNo: registrationNumber,
+            phoneNo: phoneNumber,
+            lEmail: learnerEmail,
+            year: year,
+            branch: branch,
+            password: password
+          });
+          console.log("Document written with ID: ", docRef.id);
+          window.location.href="./signupsuccess.html";
+        } catch (e) {
+          console.error("Error adding document: ", e);
+          alert(e)
+        }
+      }
+    }
+
+    document.getElementById('registerButton').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default form submission
+      register(); // Call the function to handle registration   
+    });
+  </script>
+
+// Our script must be loaded after firebase references
+
+
+  <header>
+    <nav>
+      <a class="navbar_brand" href="https://APEXjgec.github.io/">
+        <img src="../assets/logo.svg" alt="Logo" />
+        <span>APEX COMMUNITY</span>
+      </a>
+
+      <button class="menu_toggle">
+        <span class="menu_toggle_icon"></span>
+      </button>
+
+      <div class="navbar_menus">
+        <a href="./home.html" class="nav_link">Home</a>
+        <a href="./about.html" class="nav_link active">About</a>
+        <a href="./events.html" class="nav_link">Events</a>
+        <a href="./projects.html" class="nav_link">Projects</a>
+
+        <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
+        <a href="./team2023.html" class="nav_link">Team</a>
+        <a href="./gallary.html" class="nav_link">Gallery</a>
+        <a href="./contact.html" class="nav_link">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <!-- Header Navbar End -->
+
+  <!-- Sign Up Section -->
+  <section id="registration">
+    <div class="registration form">
+      <h1>Register</h1>
+      <form id="registrationForm" action="#">
+        <input id="nameInput" type="text" placeholder="Enter your Name">
+        <input id="registrationNumberInput" type="number" placeholder="Enter your Registration Number">
+        <input id="phoneNumberInput" type="number" placeholder="Enter your Phone Number">
+        <input id="learnerEmailInput" type="text" placeholder="Enter your Learner Email-Id">
+        <select id="yearSelect">
+          <option value="1">1st Year</option>
+          <option value="2">2nd Year</option>
+          <option value="3">3rd Year</option>
+        </select>
+        <select id="branchSelect">
+          <option value="cse">CSE CORE</option>
+          <option value="cseai">CSE (AI)</option>
+          <option value="cseds">CSE (DS)</option>
+          <option value="cybersec">CSE (CY)</option>
+          <option value="infotech">IT</option>
+          <option value="ece">ECE</option>
+          <option value="enc">ENC</option>
+        </select>
+        <input id="passwordInput" type="password" placeholder="Create a password">
+        <input id="confirmPasswordInput" type="password" placeholder="Confirm your password">
+        <a id="registerButton" class="member-button" target="_blank" rel="noopener">Register</a>
+      </form>
+    </div>
+  </section>
+  <!-- Sign Up Section End -->
+</body>
+</html>
