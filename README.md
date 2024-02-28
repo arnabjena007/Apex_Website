@@ -10,6 +10,7 @@
 ## Portfolio Website 🔗
 [**Visit Now**](https://apex-website-gules.vercel.app/)
 
+<div style="text-align: center;">
 ## 🛠️ Tech Stack
 [![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)&nbsp;
@@ -18,9 +19,7 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=css)
 [![Firestore](https://img.shields.io/badge/Firestore-%23FFA500.svg?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/firestore)
 [![Vercel](https://img.shields.io/badge/Vercel-%23FF0000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
-
-
-
+</div>
 
 ## 🖼️ Sneak Peek of Pages
 
