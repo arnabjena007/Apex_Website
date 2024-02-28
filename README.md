@@ -184,3 +184,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or concerns, feel free to email us at APEX@COMMUNITY.ac.in 📧.
 
+<p align="center">Made with ❤️ | Hosted on [![Vercel](https://img.shields.io/badge/Vercel-%23FF0000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)</p>
+
