@@ -72,14 +72,17 @@ The tech stack we will be using:
 ```
   ├── assets/
         ├──img/               contains all images (don't use caps or space in file name).
-        ├──ui/                contains ui's.
+        ├──font/              contains .ttf folder
         ├──logo(png,svg)      contains the logo in (png,svg).
-        ├──opengraph
   ├── css/
         ├──settings.css       all the default styling settings.
         ├──(all css files)    all other css files for pages.
   ├── js/
+        ├──index.js           all the scripts/functions for main page.
         ├──script.js          all the scripts/functions for website.
+        ├──register.js        all the scripts/functions for registation page.
+        ├──project.data.js    all the scripts/functions for project page.
+        ├──team2023.js        all the scripts/functions for team page.
   ├── pages/
         ├──(all pages)        all pages of website.
   ├── index.html              main page of the website.
