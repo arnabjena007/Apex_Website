@@ -20,8 +20,8 @@
 [![Vercel](https://img.shields.io/badge/Vercel-%23FF0000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
 ## 🖼️ Sneak Peek of Pages
-<img src="./assets/1.svg">
-<img src="./assets/2.svg">
+<img src="./assets/1.png">
+<img src="./assets/2.png">
 
 ## 📬 Contact Me
 - [LinkedIn](https://www.linkedin.com/in/arnabjena/)
