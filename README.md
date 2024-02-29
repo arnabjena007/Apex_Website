@@ -53,8 +53,7 @@
 
 ## About The Project
 
-This is the first time we have APEX in COMMUNITY. Hence we will be building our official website to showcase all that awesome stuff that APEX will be doing in future.
-This is a beginner friendly project and we hope to build an amazing website from scratch.
+Introducing APEX's inaugural community website, designed for engagement and showcasing initiatives. Tailored to serve community members, collaborators, the platform will highlight projects, events, and key information. With a user-centric design adhering to APEX's brand identity, the website will employ a streamlined tech stack, leveraging Firebase for backend functionality. Collaboration opportunities will be extended to the community for content creation and development. The project will adhere to a clear timeline, ensuring timely delivery and continuous improvement through feedback loops. 
 
 ## Built With
 
