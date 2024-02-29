@@ -19,6 +19,7 @@ let facul = [
     socialLinkedinLink: "https://www.linkedin.com/in/sapna-r-3271b424/",
   },
 ];
+
 // Lead Member Details
 let leadMemberDetails2023 = [
   {
@@ -32,7 +33,7 @@ let leadMemberDetails2023 = [
     socialLinkedinLink: "https://www.linkedin.com/in/parth-bhatnagar-01650a256/",
   },
   {
-    id: 2,
+    id: 1,
     name: "Disha Panwar",
     avatar: "../assets/img/team/Disha_Panwar.jpeg",
     badges: `       <span class="blue">APEX</span>
@@ -81,12 +82,42 @@ let coreMembersDetails2023 = [
     `,
     socialLinkedinLink: "https://www.linkedin.com/in/ananya-dua-212a46275/",
   },
-]
+];
+
+// *************** Technical Lead Members Details 2023 ***************************
+let techleadMemberDetails2023 = [
+  {
+    id:0,
+    name:"Arnab Jena",
+    avatar: "../assets/img/team/Arnab_Jena.jpg",
+    badges: `       <span class="blue">Technical</span>
+                     <span class="green">Chair</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/arnabjena/",
+  },
+  {
+    id:1,
+    name:"Panchadip",
+    avatar: "../assets/img/team/Panchadip.jpg",
+    badges: `       <span class="green">Contributer</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/panchadip-192388228/",
+  },
+  {
+    id:2,
+    name:"Prabhsimar Singh Dhingra",
+    avatar: "../assets/img/team/Prabhsimar.jpg",
+    badges: `       <span class="green">Contributer</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/arnabjena/",
+  }
+];
 
 /* ********************************************************** */
 // Members Preview Mapping
 /* ********************************************************** */
 let leadMember = document.querySelector("#lead");
+let techleadMember = document.querySelector("#tech");
 let coreMember = document.querySelector("#core");
 let excoreMember = document.querySelector("#exCore");
 let faculty = document.querySelector("#faculty-advisor");
@@ -124,7 +155,25 @@ Object.values(leadMemberDetails2023).map((val) => {
     `;
 });
 
-// Core Members   
+// **************** Technical Lead Member 2023 ***********************
+
+Object.values(techleadMemberDetails2023).map((val) => {
+  techleadMember.innerHTML += `
+        <!-- ${val.id}.${val.name} -->
+        <div class="profile_card ${val.cardBorderColor}">
+            <img src="${val.avatar}" alt="Profile Img" />
+            <h4>${val.name}</h4>
+            <p>${val.badges}</p>
+
+            <div class="social">
+                <a href="${val.socialLinkedinLink}"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    `;
+});
+
+// **************** Core ***********************
+
 Object.values(coreMembersDetails2023).map((val) => {
   coreMember.innerHTML += `
         <!-- ${val.id}.${val.name} -->
@@ -138,5 +187,3 @@ Object.values(coreMembersDetails2023).map((val) => {
         </div>
     `;
 });
-
-
