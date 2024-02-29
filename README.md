@@ -115,12 +115,12 @@ Below are the steps to follow to contribute to this project:
 
 3. **Navigate to the project directory** 📁.
    ```shell
-   cd APEXjgec.github.io
+   cd APEX_Website.github.io
    ```
 
 4. **Add a reference(remote) to the original repository**.
    ```shell
-   git remote add upstream https://github.com/APEXjgec/APEXjgec.github.io.git
+   git remote add upstream https://github.com/APEX_Website/APEX_Website.github.io.git
    ```
 
 5. **Check the remotes for this repository**.
@@ -169,7 +169,7 @@ Below are the steps to follow to contribute to this project:
 
 ## Roadmap
 
-See the [open issues](https://github.com/APEXjgec) for a list of proposed features and known issues.
+See the [open issues](https://github.com/APEX_Website) for a list of proposed features and known issues.
 
 <!-- LICENSE -->
 
