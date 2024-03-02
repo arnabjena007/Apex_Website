@@ -1,509 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="arnab jena, portfolio, arnab, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-    <meta name="description" content="Welcome to Arnab's Portfolio. Full-Stack Web Developer and Android App Developer" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Favicon -->
-    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
-    <!-- External JS -->
+  <head>
+    <!-- Site Title -->
+    <title>Home | APEX COMMUNITY</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" type="image/svg" href="../assets/logo.svg" />
+
+    <!-- Meta Character & Device Dimension -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Meta Author, Description, Keywords -->
+    <meta name="author" content="APEX COMMUNITY" />
+    <meta name="description" content="Welcome to Official Website of APEX COMMUNITY" />
+    <meta name="keywords" content="APEX, COMMUNITY" />
+
+    <!-- Meta OG: Site, Title, Description, Image, Link Displayed -->
+    <meta property="og:site_name" content="APEX" />
+    <meta property="og:title" content="APEX COMMUNITY" />
+    <meta property="og:description" content="Welcome to APEX COMMUNITY" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css"
+    />
+
+    <!-- Address Bar/Tab Color -->
+    <!-- Mobile -->
+    <meta name="theme-color" content="#FFFFFF" />
+    <!-- Windows -->
+    <meta name="msapplication-navbutton-color" content="#FFFFFF" />
+
+    <!-- External CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/settings.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+
+    <!-- Main JS -->
     <script defer src="../js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Header Navbar Start -->
+    <header>
+      <nav>
+        <a class="navbar_brand" href="https://apex-website-gules.vercel.app/">
+          <img src="../assets/logo.svg" alt="Logo" />
+          <span>APEX COMMUNITY</span>
+        </a>
+
+        <button class="menu_toggle">
+          <span class="menu_toggle_icon"></span>
+        </button>
+
+        <div class="navbar_menus">
+          <a href="./home.html" class="nav_link active">Home</a>
+          <a href="./APEX-W.html" class="nav_link">APEX-W</a>
+          <a href="./about.html" class="nav_link">About</a>
+          <a href="./events.html" class="nav_link">Events</a>
+          <a href="./projects.html" class="nav_link">Projects</a>
+
+          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
+          <a href="./team2023.html" class="nav_link">Team</a>
+          <a href="./contact.html" class="nav_link">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Navbar End -->
+
+    <!-- Home Banner Start -->
+    <div class="landing-wrapper">
+      <div class="landing-left">
+        <img src="../assets/img/landing_img.svg" />
+      </div>
+      <div class="landing-right floating">
+        <img
+          src="../assets/logo.png"
+          alt="Logo"
+          height="350px"
+          class="d-inline-block align-text-center image"
+        />
+        <h1>Welcome to APEX COMMUNITY!</h1>
+        <p>
+          The APEX <second-letter>(Aspiring Pioneers of Excellence)</second-letter> community was born from a common student dilemma: tech-savvy students lack ideas, while non-technical students lack skills. 
+          APEX bridges this gap by fostering collaboration, enabling technical students to gain ideas and non-technical students to acquire essential skills. 
+          This synergy cultivates an environment where visionary ideas become <second-letter>impactful realities.</second-letter>
+        </p>
+        <a
+          class="member-button"
+          href="./registration.html"
+          target="_blank"
+          rel="noopener">
+          Become Member
+        </a>
+      </div>
+    </div>
+    <!-- Home Banner End -->
     
-    <title>Portfolio | Arnab Jena</title>
-</head>
-<body oncontextmenu="return false">
-
-<!-- pre loader -->
-<!-- <div class="loader-container">
-  <img draggable="false" src="./assets/images/preloader.gif" alt="">
-</div> -->
-
-<!-- navbar starts -->
-<header>
-  <a href="/" class="logo">Arnab Jena</a>
-
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
-<!-- navbar ends -->
-
-
-<!-- hero section starts -->
-<section class="home" id="home">
-  <video autoplay muted loop id="video-bg">
-    
-<source src="animation.mp4" type="video/mp4"> 
-Your browser does not support the video tag.
-  </video>
-
-    <div class="content">
-    <h2>Hi There,<br/> I'm Arnab <span>Jena</span></h2>
-    <p>i am into <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Me</span>
-      <i class="fas fa-arrow-circle-down"></i>
-    </a>
-    <div class="socials">
-        <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/arnabjena/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-          <li><a class="github" aria-label="GitHub" href="https://github.com/arnabjena07" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/ArnabJena11" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/arnab.jena02"><i class="fab fa-instagram" target="_blank"></i></a></li>
-        </ul>
-      </div>
+     </iframe>
     </div>
-</section>
-<!-- hero section ends -->
+    <!--Social End-->
 
 
-<!-- about section starts -->
-<section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-    
-    <div class="row">
-
-    <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.png" alt="">
-    </div>
-    <div class="content">
-        <h3>I'm Arnab</h3>
-        <span class="tag">Full Stack Developer</span>
-        
-        <p>I am a student based in Bangalore, India. 
-          I am a Computer Science student from Manipal Institute of Technology.
-          I am very passionate about improving my coding skills & developing applications & websites.
-         </p>
-        
-        <div class="box-container">
-            <!-- <div class="box">
-              <p><span> age: </span> 20</p>
-            </div> -->
-            <div class="box">
-              <p><span> email : </span> arnabjena2003@gmail.com</p>
-              <p><span> place : </span> Bangalore, India - 560064</p>
-            </div>
-        </div>
-        
-        <div class="resumebtn">
-            <a href="" target="_blank" class="btn"><span>Resume</span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
-        </div>
-
-    </div>
-    </div>
-</section>
-<!-- about section ends -->
-
-<!-- skills section starts -->
-<section class="skills" id="skills">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
-  <div class="container" data-sr-id="24" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;">
-    <div class="row" id="skillsContainer">
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="skill">
-          <span>ReactJS</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/fluency/48/000000/node-js.png" alt="skill">
-          <span>ExpressJS</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="skill">
-          <span>NodeJS</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="skill">
-          <span>HTML5</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/css3.png" alt="skill">
-          <span>CSS3</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="skill">
-          <span>JavaScript</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="skill">
-          <span>Java</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="skill">
-          <span>Python</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="skill">
-          <span>C++</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="skill">
-          <span>MySQL</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="skill">
-          <span>PostgreSQL</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="skill">
-          <span>AWS</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/heroku.png" alt="skill">
-          <span>Heroku</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="skill">
-          <span>Netlify</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/ios-filled/48/1169ae/jquery.png" alt="skill">
-          <span>jQuery</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/git.png" alt="skill">
-          <span>Git VCS</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="skill">
-          <span>GitHub</span>
-        </div>
-      </div>
-      <div class="bar">
-        <div class="info">
-          <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="skill">
-          <span>WordPress</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- skills section ends -->
-
-<!-- Github section starts -->
-  <section class="githubstats" id="githubstats">
-    <h2 class="heading"><i class="fab fa-github"></i> Github <span>Stats</span></h2>
-  <center>
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=arnabjena007&show_icons=true&theme=dark" alt="GitHub Stats" style="background-color: transparent;">
-  <br><br>
-  <a href="https://github.com/arnabjena007/github-readme-activity-graph" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arnabjena007&layout=compact&theme=dark" alt="Top Languages" style="background-color: transparent;">
-  </a>
-  <br><br>
-  <a href="https://github.com/arnabjena007/github-readme-activity-graph" target="_blank">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=arnabjena007&theme=dark" alt="GitHub Activity Streak" style="background-color: transparent;">
-  </a>
-  <br><br>
-  <a href="https://github.com/arnabjena007/github-readme-activity-graph" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=arnabjena007&theme=dracula" alt="GitHub Activity Graph" style="background-color: transparent;">
-</a>
-</center>
-</section>
-<!-- Github section ends -->
-
-<!-- Your existing JavaScript and script tags -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-      fetch('https://api.github.com/users/arnabjena007')
-          .then(response => response.json())
-          .then(data => {
-              // Access data fields and display GitHub profile stats
-              document.getElementById('repoCount').innerText = data.public_repos;
-              document.getElementById('followersCount').innerText = data.followers;
-              // ... (Display other GitHub stats as needed)
-          })
-          .catch(error => console.error('Error fetching data:', error));
-  });
-</script>
-
-<!-- education section starts -->
-<section class="education" id="education">
-
-  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-
-    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
-
-    <div class="box-container">
-
-    <div class="box">
-        <div class="image">
-        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
-        </div>
-        <div class="content">
-        <h3>Bachelor of Technology in Computer Science (Artificial Intelligence)</h3>
-        <p>Manipal Institute of Technology | MIT</p>
-        <h4>2020-2027 | Pursuing</h4>
-        </div>
-    </div>
-
-    <div class="box">
-      <div class="image">
-      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
-      </div>
-      <div class="content">
-      <h3>Mount Carmel School Chandigarh</h3>
-      <p>10th(2020), 12(2022)| CBSE</p>
-      <h4>2010-2022 | Completed</h4>
-      </div>
-    </div>
-
-</div>
-</section>
-<!-- education section ends -->
-
-<!-- experience section starts -->
-<section class="experience" id="experience">
-
-  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
-
-  <div class="timeline">
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>APEX Community</h2>
-        </div>
-        <div class="desc">
-            <h3>Technical Lead</h3>
-            <p>March 2024</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>ACM Student Chapter</h2>
-        </div>
-        <div class="desc">
-            <h3>Executive Member</h3>
-            <p>October 2023</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Codex</h2>
-        </div>
-        <div class="desc">
-            <h3>Graphic Designer</h3>
-            <p>September 2023</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Mount Carmel School Chandigarh</h2>
-        </div>
-        <div class="desc">
-            <h3>Head Boy</h3>
-            <p>May 2021 - March 2022</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Mount Carmel School Chandigarh</h2>
-        </div>
-        <div class="desc">
-            <h3>House Captain (Shakespeare House)</h3>
-            <p>May 2019 - March 2020</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Mount Carmel School Chandigarh</h2>
-        </div>
-        <div class="desc">
-            <h3>Vice Captain (Shakespeare House)</h3>
-            <p>May 2018 - March 2019</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="morebtn">
-    <a href="/experience" class="btn"><span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-  </a>
-  </div>
-
-</div>
-
-</section>
-<!-- experience section ends -->
-
-<!-- contact section starts -->
-<section class="contact" id="contact">
-  
-  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-
-  <div class="container">
-    <div class="content">
-      <div class="image-box">
-        <img draggable="false" src="./assets/images/gif-image.gif" alt="">
-      </div>
-    <form id="contact-form">
-      
-      <div class="form-group">
-        <div class="field">
-          <input type="text" name="name" placeholder="Name" required>
-          <i class='fas fa-user'></i>
-        </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
-          <i class='fas fa-envelope'></i>
-        </div>
-        <div class="field">
-          <input type="text" name="phone" placeholder="Phone">
-          <i class='fas fa-phone-alt'></i>
-        </div>
-        <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comment-dots"></i>
-        </div>
-        </div>
-      <div class="button-area">
-        <button type="submit">
-          Submit <i class="fa fa-paper-plane"></i></button>
-      </div>
-    </form>
-  </div>
-  </div>
-</section>
-<!-- contact section ends -->
-
-
-<!-- footer section starts -->
-<section class="footer">
-
-  <div class="box-container">
-
-      <div class="box">
-          <h3>Arnab's Portfolio</h3>
-          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
-      </div>
-
-      <div class="box">
-          <h3>quick links</h3>
-          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
-      </div>
-
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+91 6284961789</p>
-          <p> <i class="fas fa-envelope"></i>arnabjena2003@gmail.com</p>
-          <p> <i class="fas fa-map-marked-alt"></i>Bangalore, India-560064</p>
-          <div class="share">
-
-              <a href="https://www.linkedin.com/in/arnabjena" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="https://github.com/arnabjena007" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:arnabjena2003@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-              <a href="https://twitter.com/arnabjena11" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+    <!-- Footer Start -->
+    <footer>
+      <!-- Footer Desc -->
+      <div class="footer_main">
+        <div class="footer_desc">
+          <h2>Join Our Community</h2>
+          <p>
+            Helping students to bridge the gap between theory and practice. By joining a APEX,
+            students grow their knowledge in a peer-to-peer learning environment and build solutions
+            for local businesses and their community.
+          </p>
+          <div class="logo_tag">
+            <img src="../assets/logo 2.svg" alt="APEX Logo" />
+            <p>APEX COMMUNITY</p>
+            <span>2024</span>
           </div>
+          <span></span>
+        </div>
+    
+        <!-- Footer Links -->
+        <div class="footer_links">
+          <h2>Quick Links</h2>
+          <span>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="projects.html">Projects</a>
+            <a href="team2023.html">Team</a>
+            <a href="contact.html">Contact</a>
+          </span>
+        </div>
+    
+        <!-- Footer Contact -->
+        <div class="footer_contact">
+          <h2>Contact Us</h2>
+          <a href="#" class="follow">
+            <i class="bx bxs-envelope"></i>
+            <span>APEX@community.ac.in</span>
+          </a>
+          <a href="#" class="follow">
+            <i class="bx bxs-map"></i>
+            <span>MITB, Bangalore, KA, 560064, India</span>
+          </a>
+          <div class="social_links">
+            <a href="https://github.com/APEX-Community-mitb"><i class="bx bxl-github"></i></a>
+            <a href=""><i class="bx bxl-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/apex-community/"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
       </div>
-  </div>
-
-  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/arnabjena007"> arnab jena</a></h1>
-
-</section>
-<!-- footer section ends -->
-
-
-<!-- scroll top btn -->
-<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
-<!-- scroll back to top -->
-
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-<!-- jquery cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- typed.js cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- particle.js links -->
-<script src="./assets/js/particles.min.js"></script>
-<script src="./assets/js/app.js"></script>
-
-<!-- vanilla tilt.js links -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- scroll reveal anim -->
-<script src="https://unpkg.com/scrollreveal"></script>
-
-<script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
-<script src="./assets/js/script.js"></script>
-
-</body>
+      
+      <!--Copyright Footer-->
+      <div class="footer_copyright">
+        <hr size="1" style="color: rgb(255, 255, 255); opacity: 1;">
+        <div class="credit">Made with <span style="color:red">❤</span> by Arnab | <i class="fa fa-github" style="font-size:24px"></i> <a href="https://github.com/arnabjena007">GitHub</a></div>
+      </div>
+    </footer>
+  </body>
 </html>
