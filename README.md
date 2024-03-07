@@ -7,7 +7,7 @@
   <h1 align="center">APEX COMMUNITY Website</h1>
 </p>
 
-## Portfolio Website 🔗
+## Full Stack Website 🔗
 [**Visit Now**](https://apex-website-gules.vercel.app/)
 
 ## 🛠️ Tech Stack
