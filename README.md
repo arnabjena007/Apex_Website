@@ -84,6 +84,7 @@ The tech stack we will be using:
         ├──register.js        all the scripts/functions for registation page.
         ├──project.data.js    all the scripts/functions for project page.
         ├──team2023.js        all the scripts/functions for team page.
+        ├──testimonial-slider.js        all the scripts/functions for testimonial section.
   ├── pages/
         ├──(all pages)        all pages of website.
   ├── index.html              main page of the website.
