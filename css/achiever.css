@@ -171,7 +171,7 @@ h1 {
     position: relative;
     width: calc(100% - 30px);
     margin: 10px;
-    height: 600px;
+    height: 1000px;
     border-radius: 10px;
     background-color: #fff;
     border: 2px solid rgb(20 23 24);
@@ -181,52 +181,73 @@ h1 {
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
     transition: box-shadow 0.2s ease, transform 0.2s ease;
     top: 10px;
+    margin-bottom: 100px;
   }
 
   .projcard.projcard-red {
+    /* Assuming this is a special style for certain project cards */
+    /* If not, you can remove this block or adjust it accordingly */
     position: relative;
     width: calc(100% - 20px);
     margin: 10px;
-    height: 600px;
+    height: 1000px;
     border-radius: 10px;
     background-color: #fff;
     border: 2px solid rgb(20 23 24);
-    font-size: 18px;
+    font-size: 30px;
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
     transition: box-shadow 0.2s ease, transform 0.2s ease;
     top: 10px;
+    margin-bottom: 75px;
   }
   
   .projcard-img {
     width: 100%;
-    height: 100%;
+    height: auto; /* Adjust height as needed */
+    display: block; /* Ensures proper spacing */
   }
   
   .projcard-textbox {
-    position: absolute; 
+    position: absolute;
+    height: auto; 
     bottom: 0; 
     left: 0; 
     width: 100%; 
-    height: auto; 
-    padding: 10px;
     text-align: center;
+    font-size: 75px;
+    color: black;
     background-color: rgb(255, 255, 255);
     border-radius: 0 0 10px 10px;
-    margin-top: 0px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+  }
+
+  .projcard-innerbox {
+    position: absolute;
+    height: 5px;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;;
   }
   
   .projcard-title {
-    font-family: 'Voces', 'Open Sans', arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+    height: 100px;
     font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 430px;
+    margin-bottom: 10px;
   }
   
+  .projcard-bar {
+    margin-top: 50px;
+  }
+
   .projcard-subtitle {
-    font-family: 'Voces', 'Open Sans', arial, sans-serif;
-    color: #888;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
     margin-bottom: 10px;
   }
 }
