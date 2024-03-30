@@ -113,12 +113,79 @@ let techleadMemberDetails2023 = [
   }
 ];
 
+
+// *************** APEX-W Lead Members Details 2023 ***************************
+let wleadMemberDetails2023 = [
+  {
+    id: 0,
+    name: "Aishwarya Patil",
+    avatar: "../assets/img/team/Aishwarya_Patil.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">President</span>
+                `,
+
+    socialLinkedinLink: "https://www.linkedin.com/in/aishwarya-patil-7a2573287/",
+  },
+  {
+    id: 1,
+    name: "Yuvika Kapoor",
+    avatar: "../assets/img/team/Yuvika_Kapoor.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                     <span class="green">Vice-President</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/yuvika-kapoor-066235285/",
+
+  },
+  {
+    id: 3,
+    name: "Aishvi Bansal",
+    avatar: "../assets/img/team/Aishvi_Bansal.jpeg",
+    badges: `    <span class="green">Secretary</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/aishvibansal/",
+
+  }  
+];
+
+// *************** Core Members Details 2023 ***************************
+let wcoreMembersDetails2023 = [
+  {
+    id:0,
+    name:"Isha Karn",
+    avatar: "../assets/img/team/Isha_Karn.jpeg",
+    badges: `       <span class="blue">Technical</span>
+                     <span class="green">Chair</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/isha-karn-0320a2281/",
+  },
+  {
+    id:1,
+    name:"Shadeeksha Shree",
+    avatar: "../assets/img/team/Shadeeksha_Shree.jpeg",
+    badges: `
+      <span class="green">Marketing Head</span>
+    `,
+    socialLinkedinLink: "https://www.linkedin.com/in/shadeeksha-shree-6a2867290/",
+  },
+  {
+    id:2,
+    name:"Namita Sampath",
+    avatar: "../assets/img/team/Namita_Sampath.jpeg",
+    badges: `
+      <span class="green">Logistic Head</span>
+    `,
+    socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
+  },
+];
+
 /* ********************************************************** */
 // Members Preview Mapping
 /* ********************************************************** */
 let leadMember = document.querySelector("#lead");
+let wleadMember = document.querySelector("#wlead");
 let techleadMember = document.querySelector("#tech");
 let coreMember = document.querySelector("#core");
+let wcoreMember = document.querySelector("#wcore");
 let excoreMember = document.querySelector("#exCore");
 let faculty = document.querySelector("#faculty-advisor");
 
@@ -155,6 +222,23 @@ Object.values(leadMemberDetails2023).map((val) => {
     `;
 });
 
+// **************** W-Lead Member 2023 ***********************
+
+Object.values(wleadMemberDetails2023).map((val) => {
+  wleadMember.innerHTML += `
+        <!-- ${val.id}.${val.name} -->
+        <div class="profile_card ${val.cardBorderColor}">
+            <img src="${val.avatar}" alt="Profile Img" />
+            <h4>${val.name}</h4>
+            <p>${val.badges}</p>
+
+            <div class="social">
+                <a href="${val.socialLinkedinLink}"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    `;
+});
+
 // **************** Technical Lead Member 2023 ***********************
 
 Object.values(techleadMemberDetails2023).map((val) => {
@@ -176,6 +260,22 @@ Object.values(techleadMemberDetails2023).map((val) => {
 
 Object.values(coreMembersDetails2023).map((val) => {
   coreMember.innerHTML += `
+        <!-- ${val.id}.${val.name} -->
+        <div class="profile_card ${val.cardBorderColor}">
+            <img src="${val.avatar}" alt="Profile Img" />
+            <h4>${val.name}</h4>
+            <p>${val.badges}</p>
+
+            <div class="social">
+                <a href="${val.socialLinkedinLink}" ><i class="bx bxl-linkedin"></i></a>
+        </div>
+    `;
+});
+
+// **************** W-Core ***********************
+
+Object.values(wcoreMembersDetails2023).map((val) => {
+  wcoreMember.innerHTML += `
         <!-- ${val.id}.${val.name} -->
         <div class="profile_card ${val.cardBorderColor}">
             <img src="${val.avatar}" alt="Profile Img" />
