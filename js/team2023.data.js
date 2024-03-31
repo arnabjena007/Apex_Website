@@ -46,7 +46,8 @@ let leadMemberDetails2023 = [
     id: 3,
     name: "Ambikesh Jha",
     avatar: "../assets/img/team/Ambikesh_Jha.jpeg",
-    badges: `    <span class="green">Treasurer</span>
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Tresurer</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/ambikesh-jha-714652252/",
 
@@ -59,27 +60,27 @@ let coreMembersDetails2023 = [
     id:0,
     name:"Shivansh Gautam",
     avatar: "../assets/img/team/Shivansh_Gautam.jpeg",
-    badges: `
-      <span class="green">Secretary</span>
-      `,
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Secretary</span>
+                `,
     socialLinkedinLink: "https://www.linkedin.com/in/shivansh-gautam-sg/",
   },
   {
     id:1,
     name:"Nishant Tripathi",
     avatar: "../assets/img/team/Nishant_Tripathi.jpeg",
-    badges: `
-      <span class="green">Logistic Head</span>
-    `,
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Logistic Head</span>
+                `,
     socialLinkedinLink: "https://www.linkedin.com/in/nishant-tripathi-4474a9212/",
   },
   {
     id:2,
     name:"Ananya Dua",
     avatar: "../assets/img/team/Ananya_Dua.jpeg",
-    badges: `
-      <span class="green">Marketing Head</span>
-    `,
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Marketing Head</span>
+                `,
     socialLinkedinLink: "https://www.linkedin.com/in/ananya-dua-212a46275/",
   },
 ];
@@ -90,8 +91,8 @@ let techleadMemberDetails2023 = [
     id:0,
     name:"Arnab Jena",
     avatar: "../assets/img/team/Arnab_Jena.jpg",
-    badges: `       <span class="blue">Technical</span>
-                     <span class="green">Chair</span>
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Technical Chair</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/arnabjena/",
   },
@@ -99,7 +100,8 @@ let techleadMemberDetails2023 = [
     id:1,
     name:"Panchadip",
     avatar: "../assets/img/team/Panchadip.jpg",
-    badges: `       <span class="green">Web Developer</span>
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Web Developer</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/panchadip-192388228/",
   },
@@ -107,7 +109,8 @@ let techleadMemberDetails2023 = [
     id:2,
     name:"Prabhsimar Singh Dhingra",
     avatar: "../assets/img/team/Prabhsimar.jpg",
-    badges: `       <span class="green">Web Developer</span>
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Web Developer</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/arnabjena/",
   }
@@ -120,7 +123,7 @@ let wleadMemberDetails2023 = [
     id: 0,
     name: "Aishwarya Patil",
     avatar: "../assets/img/team/Aishwarya_Patil.jpeg",
-    badges: `       <span class="blue">APEX</span>
+    badges: `       <span class="blue">APEX-W</span>
                     <span class="green">President</span>
                 `,
 
@@ -130,7 +133,7 @@ let wleadMemberDetails2023 = [
     id: 1,
     name: "Yuvika Kapoor",
     avatar: "../assets/img/team/Yuvika_Kapoor.jpeg",
-    badges: `       <span class="blue">APEX</span>
+    badges: `       <span class="blue">APEX-W</span>
                      <span class="green">Vice-President</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/yuvika-kapoor-066235285/",
@@ -140,7 +143,8 @@ let wleadMemberDetails2023 = [
     id: 3,
     name: "Aishvi Bansal",
     avatar: "../assets/img/team/Aishvi_Bansal.jpeg",
-    badges: `    <span class="green">Secretary</span>
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Secretary</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/aishvibansal/",
 
@@ -153,8 +157,8 @@ let wcoreMembersDetails2023 = [
     id:0,
     name:"Isha Karn",
     avatar: "../assets/img/team/Isha_Karn.jpeg",
-    badges: `       <span class="blue">Technical</span>
-                     <span class="green">Chair</span>
+    badges: `       <span class="blue">APEX- W</span>
+                     <span class="green">Technical Chair</span>
                 `,
     socialLinkedinLink: "https://www.linkedin.com/in/isha-karn-0320a2281/",
   },
@@ -162,18 +166,18 @@ let wcoreMembersDetails2023 = [
     id:1,
     name:"Shadeeksha Shree",
     avatar: "../assets/img/team/Shadeeksha_Shree.jpeg",
-    badges: `
-      <span class="green">Marketing Head</span>
-    `,
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Markrting Head</span>
+                `,
     socialLinkedinLink: "https://www.linkedin.com/in/shadeeksha-shree-6a2867290/",
   },
   {
     id:2,
     name:"Namita Sampath",
     avatar: "../assets/img/team/Namita_Sampath.jpeg",
-    badges: `
-      <span class="green">Logistic Head</span>
-    `,
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Logistic Head</span>
+                `,
     socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
   },
 ];
