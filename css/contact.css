@@ -93,7 +93,7 @@ div.contact div.contact_form form .input-group textarea {
   font-size: 1.8rem;
   font-weight: 600;
   font-family: var(--mainfont);
-  color: white;
+  color: black;
   background: transparent;
   border: none;
   border-bottom: 2px solid var(--lightgrey);
