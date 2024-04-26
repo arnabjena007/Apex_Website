@@ -8,7 +8,7 @@
 </p>
 
 ## APEX Community Website 🔗
-[**Visit Now**](https://apex-website-gules.vercel.app/)
+[**Visit Now**](https://apex-website-glues.vercel.app/)
 
 ## 🛠️ Tech Stack
 [![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/arnabjena007/Portfolio-Website/search?l=html)&nbsp;
