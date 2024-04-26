@@ -80,7 +80,7 @@ let logiMemberDetails2023 = [
   },
   {
     id: 1,
-    name: "Ambikesh Kumar",
+    name: "Ambikesh Jha",
     avatar: "../assets/img/team/Ambikesh_Jha.jpeg",
     socialLinkedinLink: "",
   },
