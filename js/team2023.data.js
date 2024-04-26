@@ -23,7 +23,7 @@ let leadMemberDetails2023 = [
     name: "Disha Himani",
     avatar: "../assets/img/team/Disha_Himani.jpeg",
     badges: `<span class="green">Co-Vice President</span>`,
-    socialLinkedinLink: "https://www.linkedin.com/in/ambikesh-jha-714652252/",
+    socialLinkedinLink: "",
   }
 ];
 
@@ -32,7 +32,7 @@ let coreMemberDetails2023 = [
   {
     id: 0,
     name: "Malhar Jachak",
-    avatar: "../assets/img/team/.jpeg",
+    avatar: "../assets/img/team/Malhar_Jachak.jpeg",
     badges: `<span class="green">General Secretary</span>`,
     socialLinkedinLink: "",
   },
@@ -75,38 +75,38 @@ let logiMemberDetails2023 = [
   {
     id: 0,
     name: "Saurabh Kumar",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/aishvibansal/",
+    avatar: "../assets/img/team/Saurabh_Kumar.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 1,
     name: "Ambikesh Kumar",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/isha-karn-0320a2281/",
+    avatar: "../assets/img/team/Ambikesh_Jha.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 2,
     name: "Divyansh Pandey",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/shadeeksha-shree-6a2867290/",
+    avatar: "../assets/img/team/Divyansh_Pandey.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 3,
     name: "Viasmay Telluri",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
+    avatar: "../assets/img/team/Vismay_Telluri.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 4,
     name: "Krishna Pandey",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
+    avatar: "../assets/img/team/Krishan_Pandey.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 5,
     name: "Avi Nandwani",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
+    avatar: "../assets/img/team/Avi_Nandwani.jpeg",
+    socialLinkedinLink: "",
   }
 ];
 
@@ -115,20 +115,20 @@ let marketMemberDetails2023 = [
   {
     id: 0,
     name: "Jhanavi Agarwal",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/parth-bhatnagar-01650a256/",
+    avatar: "../assets/img/team/Jhanavi_Agarwal.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 1,
     name: "Aishwarya Venkatesh",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/vedang-patil23/",
+    avatar: "../assets/img/team/Aishwarya_Venkatesh.jpeg",
+    socialLinkedinLink: "",
   },
   {
     id: 2,
     name: "Shreya Sharma",
-    avatar: "../assets/img/team/.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/disha-himani-a-s-775339255/",
+    avatar: "../assets/img/team/Shreya_Sharma.jpeg",
+    socialLinkedinLink: "",
   },
 ];
 
@@ -138,19 +138,19 @@ let rdMemberDetails2023 = [
     id: 0,
     name: "Anushree Jha",
     avatar: "../assets/img/team/Anushree_Jha.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/parth-bhatnagar-01650a256/",
+    socialLinkedinLink: "",
   },
   {
     id: 1,
     name: "Amrita Goswami",
     avatar: "../assets/img/team/Amrita_Goswami.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/vedang-patil23/",
+    socialLinkedinLink: "",
   },
   {
     id: 2,
     name: "Sanjana",
     avatar: "../assets/img/team/Sanjana.jpeg",
-    socialLinkedinLink: "https://www.linkedin.com/in/disha-himani-a-s-775339255/",
+    socialLinkedinLink: "",
   },
 ];
 
