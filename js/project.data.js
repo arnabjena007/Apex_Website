@@ -9,8 +9,8 @@ let projectDetails = [
     repo: "APEX/APEX-WEBSITE",
     desc: "Official Website for APEX COMMUNITY, and which is open source 🤩.",
 
-    viewLink: "https://APEX.github.io/",
-    repoLink: "https://github.com/APEX-Community-mitb/APEX-WEBSITE.git",
+    viewLink: "https://apex-website-gules.vercel.app/",
+    repoLink: "https://github.com/APEX-Community-mitb/Apex_Website",
 
     viewtarget: "_blank",
     repotarget: "_blank",
