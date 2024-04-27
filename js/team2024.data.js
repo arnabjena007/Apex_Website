@@ -2,167 +2,198 @@
 // Members Details Data Object
 /* ********************************************************** */
 
-// *************** Lead Members Details  ***************************
+// Lead Member Details
 let leadMemberDetails2023 = [
   {
     id: 0,
-    name: "Parth Bhatnagar",
-    avatar: "../assets/img/team/Parth_Bhatnagar.jpeg",
-    badges: `<span class="green">President</span>`,
-    socialLinkedinLink: "",
+    name: "Shivansh Gautam",
+    avatar: "../assets/img/team/Shivansh_Gautam.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">President</span>
+                `,
+
+    socialLinkedinLink: "https://www.linkedin.com/in/shivansh-gautam-sg/",
   },
   {
     id: 1,
-    name: "Vedang Patil",
-    avatar: "../assets/img/team/Vedang_Patil.jpeg",
-    badges: `<span class="green">Vice-President</span>`,
-    socialLinkedinLink: "",
+    name: "Nishant Tripathi",
+    avatar: "../assets/img/team/Nishant_Tripathi.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                     <span class="green">Vice-President</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/nishant-tripathi-4474a9212/",
+
   },
   {
     id: 2,
-    name: "Disha Himani",
-    avatar: "../assets/img/team/Disha_Himani.jpeg",
-    badges: `<span class="green">Co-Vice President</span>`,
-    socialLinkedinLink: "",
-  }
-];
+    name: "Gauravi Singh",
+    avatar: "../assets/img/team/Gauravi_Singh.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Co-Vice President</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/ambikesh-jha-714652252/",
 
-// *************** Core Members Details  ***************************
-let coreMemberDetails2023 = [
-  {
-    id: 0,
-    name: "Malhar Jachak",
-    avatar: "../assets/img/team/Malhar_Jachak.jpeg",
-    badges: `<span class="green">General Secretary</span>`,
-    socialLinkedinLink: "",
-  },
-  {
-    id: 1,
-    name: "Bonam Sai Shreyea",
-    avatar: "../assets/img/team/Sai_Shreya.jpeg",
-    badges: `<span class="green">Treasurer</span>`,
-    socialLinkedinLink: "",
-  }
-];
-
-// *************** Technical Team Members Details 2023 ***************************
-let techMemberDetails2023 = [
-  {
-    id: 0,
-    name: "Raghav Gupta",
-    avatar: "../assets/img/team/Raghav_Gupta.jpeg",
-    badges: `<span class="green">Technical Team</span>`,
-    socialLinkedinLink: "",
-  },
-  {
-    id: 1,
-    name: "Vishnu Bhattacharya",
-    avatar: "../assets/img/team/Vishnu_Bhattacharya.jpeg",
-    badges: `<span class="green">Technical Team</span>`,
-    socialLinkedinLink: "",
-  },
-  {
-    id: 2,
-    name: "Vaibhav Sharma",
-    avatar: "../assets/img/team/Vaibhav_Sharma.jpeg",
-    badges: `<span class="green">Technical Team</span>`,
-    socialLinkedinLink: "",
   }  
 ];
 
-// *************** Logistic Team Members Details 2023 ***************************
-let logiMemberDetails2023 = [
+// *************** Core Members Details 2023 ***************************
+let coreMembersDetails2023 = [
   {
-    id: 0,
-    name: "Saurabh Kumar",
-    avatar: "../assets/img/team/Saurabh_Kumar.jpeg",
+    id:0,
+    name:"Spandan Agarwal",
+    avatar: "../assets/img/team/Spandan_Agarwal.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Secretary</span>
+                `,
     socialLinkedinLink: "",
   },
   {
-    id: 1,
-    name: "Ambikesh Kumar",
-    avatar: "../assets/img/team/Ambikesh_Jha.jpeg",
-    socialLinkedinLink: "",
+    id:1,
+    name:"Arnab Jena",
+    avatar: "../assets/img/team/Arnab_Jena.jpg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Technical Chair</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/arnabjena/",
   },
   {
-    id: 2,
-    name: "Divyansh Pandey",
-    avatar: "../assets/img/team/Divyansh_Pandey.jpeg",
-    socialLinkedinLink: "",
+    id:2,
+    name:"Panchadip",
+    avatar: "../assets/img/team/Panchadip.jpg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Web Developer</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/panchadip-192388228/",
   },
   {
-    id: 3,
-    name: "Viasmay Telluri",
-    avatar: "../assets/img/team/Vismay_Telluri.jpeg",
-    socialLinkedinLink: "",
+    id:3,
+    name:"Prabhsimar Singh Dhingra",
+    avatar: "../assets/img/team/Prabhsimar.jpg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Web Developer</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/prabhsimar-singh-dhingra-442993216/",
   },
   {
-    id: 4,
-    name: "Krishna Pandey",
-    avatar: "../assets/img/team/Krishan_Pandey.jpeg",
-    socialLinkedinLink: "",
+    id:4,
+    name:"Abhijeet Kulkarni",
+    avatar: "../assets/img/team/Abhijeet_Kulkarni.jpg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Logistic Head</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/abhijeet-kulkarni-397030286/",
   },
   {
-    id: 5,
-    name: "Avi Nandwani",
-    avatar: "../assets/img/team/Avi_Nandwani.jpeg",
-    socialLinkedinLink: "",
+    id:5,
+    name:"Ananya Dua",
+    avatar: "../assets/img/team/Ananya_Dua.jpeg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Marketing Head</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/ananya-dua-212a46275/",
+  },
+  {
+  id:6,
+    name:"Tarun Addala",
+    avatar: "../assets/img/team/Tarun_Addala.jpg",
+    badges: `       <span class="blue">APEX</span>
+                    <span class="green">Treasurer</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/tarun-addala-058ba6286/",
   }
 ];
 
-// *************** Marketing Team Members Details 2023 ***************************
-let marketMemberDetails2023 = [
+// *************** APEX-W Lead Members Details 2023 ***************************
+let wleadMemberDetails2023 = [
   {
     id: 0,
-    name: "Jhanavi Agarwal",
-    avatar: "../assets/img/team/Jhanavi_Agarwal.jpeg",
-    socialLinkedinLink: "",
+    name: "Aishwarya Patil",
+    avatar: "../assets/img/team/Aishwarya_Patil.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">President</span>
+                `,
+
+    socialLinkedinLink: "https://www.linkedin.com/in/aishwarya-patil-7a2573287/",
   },
   {
     id: 1,
-    name: "Aishwarya Venkatesh",
-    avatar: "../assets/img/team/Aishwarya_Venkatesh.jpeg",
-    socialLinkedinLink: "",
+    name: "Yuvika Kapoor",
+    avatar: "../assets/img/team/Yuvika_Kapoor.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                     <span class="green">Vice-President</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/yuvika-kapoor-066235285/",
+
   },
   {
-    id: 2,
-    name: "Shreya Sharma",
-    avatar: "../assets/img/team/Shreya_Sharma.jpeg",
-    socialLinkedinLink: "",
-  },
+    id: 3,
+    name: "Anuska Garg",
+    avatar: "../assets/img/team/Anuska_Garg.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Co-Vice President</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/anushka-garg-a48140300/",
+
+  }  
 ];
 
-// *************** Research & Development Team Members Details 2023 ***************************
-let rdMemberDetails2023 = [
+// *************** APEX-W Core Members Details 2023 ***************************
+let wcoreMembersDetails2023 = [
   {
     id: 0,
-    name: "Anushree Jha",
-    avatar: "../assets/img/team/Anushree_Jha.jpeg",
-    socialLinkedinLink: "",
+    name: "Aishvi Bansal",
+    avatar: "../assets/img/team/Aishvi_Bansal.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Secretary</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/aishvibansal/",
+
   },
   {
-    id: 1,
-    name: "Amrita Goswami",
-    avatar: "../assets/img/team/Amrita_Goswami.jpeg",
-    socialLinkedinLink: "",
+    id:1,
+    name:"Isha Karn",
+    avatar: "../assets/img/team/Isha_Karn.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                     <span class="green">Technical Chair</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/isha-karn-0320a2281/",
   },
   {
-    id: 2,
-    name: "Sanjana",
-    avatar: "../assets/img/team/Sanjana.jpeg",
-    socialLinkedinLink: "",
+    id:2,
+    name:"Shadeeksha Shree",
+    avatar: "../assets/img/team/Shadeeksha_Shree.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Marketing Head</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/shadeeksha-shree-6a2867290/",
   },
+  {
+    id:3,
+    name:"Namita Sampath",
+    avatar: "../assets/img/team/Namita_Sampath.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Logistic Head</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
+  },
+  {
+    id:4,
+    name:"Pallak",
+    avatar: "../assets/img/team/Pallak.jpeg",
+    badges: `       <span class="blue">APEX-W</span>
+                    <span class="green">Treasure</span>
+                `,
+    socialLinkedinLink: "https://www.linkedin.com/in/namita-sampath-4254b3217/",
+  }
 ];
 
 /* ********************************************************** */
 // Members Preview Mapping
 /* ********************************************************** */
 let leadMember = document.querySelector("#lead");
+let wleadMember = document.querySelector("#wlead");
 let coreMember = document.querySelector("#core");
-let techMember = document.querySelector("#tech");
-let logiMember = document.querySelector("#logi");
-let marketMember = document.querySelector("#market");
-let rdMember = document.querySelector("#rd");
+let wcoreMember = document.querySelector("#wcore");
 
 // **************** Lead Member 2023 ***********************
 
@@ -181,67 +212,51 @@ Object.values(leadMemberDetails2023).map((val) => {
     `;
 });
 
-// **************** Core Member 2023 ***********************
+// **************** W-Lead Member 2023 ***********************
 
-Object.values(coreMemberDetails2023).map((val) => {
+Object.values(wleadMemberDetails2023).map((val) => {
+  wleadMember.innerHTML += `
+        <!-- ${val.id}.${val.name} -->
+        <div class="profile_card ${val.cardBorderColor}">
+            <img src="${val.avatar}" alt="Profile Img" />
+            <h4>${val.name}</h4>
+            <p>${val.badges}</p>
+
+            <div class="social">
+                <a href="${val.socialLinkedinLink}"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    `;
+});
+
+// **************** Core ***********************
+
+Object.values(coreMembersDetails2023).map((val) => {
   coreMember.innerHTML += `
         <!-- ${val.id}.${val.name} -->
         <div class="profile_card ${val.cardBorderColor}">
             <img src="${val.avatar}" alt="Profile Img" />
             <h4>${val.name}</h4>
             <p>${val.badges}</p>
+
+            <div class="social">
+                <a href="${val.socialLinkedinLink}" ><i class="bx bxl-linkedin"></i></a>
         </div>
     `;
 });
 
-// *************** Technical Team Members Details********
+// **************** W-Core ***********************
 
-Object.values(techMemberDetails2023).map((val) => {
-  techMember.innerHTML += `
+Object.values(wcoreMembersDetails2023).map((val) => {
+  wcoreMember.innerHTML += `
         <!-- ${val.id}.${val.name} -->
         <div class="profile_card ${val.cardBorderColor}">
             <img src="${val.avatar}" alt="Profile Img" />
             <h4>${val.name}</h4>
             <p>${val.badges}</p>
-        </div>
-    `;
-});
 
-// *************** Logistic Team Members Details********
-
-Object.values(logiMemberDetails2023).map((val) => {
-  logiMember.innerHTML += `
-        <!-- ${val.id}.${val.name} -->
-        <div class="profile_card ${val.cardBorderColor}">
-            <img src="${val.avatar}" alt="Profile Img" />
-            <h4>${val.name}</h4>
-            <p>${val.badges}</p>
-        </div>
-    `;
-});
-
-// *************** Marketing Team Members Details********
-
-Object.values(marketMemberDetails2023).map((val) => {
-  marketMember.innerHTML += `
-        <!-- ${val.id}.${val.name} -->
-        <div class="profile_card ${val.cardBorderColor}">
-            <img src="${val.avatar}" alt="Profile Img" />
-            <h4>${val.name}</h4>
-            <p>${val.badges}</p>
-        </div>
-    `;
-});
-
-// *************** Research and Development Team Members********
-
-Object.values(rdMemberDetails2023).map((val) => {
-  rdMember.innerHTML += `
-        <!-- ${val.id}.${val.name} -->
-        <div class="profile_card ${val.cardBorderColor}">
-            <img src="${val.avatar}" alt="Profile Img" />
-            <h4>${val.name}</h4>
-            <p>${val.badges}</p>
+            <div class="social">
+                <a href="${val.socialLinkedinLink}" ><i class="bx bxl-linkedin"></i></a>
         </div>
     `;
 });
