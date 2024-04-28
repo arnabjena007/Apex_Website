@@ -184,6 +184,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or concerns, feel free to email us at APEX@COMMUNITY.ac.in 📧.
+If you have any questions or concerns, feel free to email us at apexcommunity.mitblr@gmail.com 📧.
 
 <p align="center">Made with ❤️ | Hosted on <a href="https://apex-website-gules.vercel.app/">Vercel</a></p>
