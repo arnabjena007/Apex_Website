@@ -97,6 +97,7 @@ let logiMemberDetails2023 = [
     id: 3,
     name: "Viasmay Telluri",
     avatar: "../assets/img/team/Vismay_Telluri.jpeg",
+    badges: `<span class="green">Logistic Team</span>`,
     socialLinkedinLink: "",
   },
   {
