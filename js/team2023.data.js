@@ -76,18 +76,21 @@ let logiMemberDetails2023 = [
     id: 0,
     name: "Saurabh Kumar",
     avatar: "../assets/img/team/Saurabh_Kumar.jpeg",
+    badges: `<span class="green">Logistic Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 1,
     name: "Ambikesh Jha",
     avatar: "../assets/img/team/Ambikesh_Jha.jpeg",
+    badges: `<span class="green">Logistic Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 2,
     name: "Divyansh Pandey",
     avatar: "../assets/img/team/Divyansh_Pandey.jpeg",
+    badges: `<span class="green">Logistic Team</span>`,
     socialLinkedinLink: "",
   },
   {
@@ -100,12 +103,14 @@ let logiMemberDetails2023 = [
     id: 4,
     name: "Krishna Pandey",
     avatar: "../assets/img/team/Krishan_Pandey.jpeg",
+    badges: `<span class="green">Logistic Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 5,
     name: "Avi Nandwani",
     avatar: "../assets/img/team/Avi_Nandwani.jpeg",
+    badges: `<span class="green">Logistic Team</span>`,
     socialLinkedinLink: "",
   }
 ];
@@ -116,18 +121,21 @@ let marketMemberDetails2023 = [
     id: 0,
     name: "Jhanavi Agarwal",
     avatar: "../assets/img/team/Jhanavi_Agarwal.jpeg",
+    badges: `<span class="green">Marketing Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 1,
     name: "Aishwarya Venkatesh",
     avatar: "../assets/img/team/Aishwarya_Venkatesh.jpeg",
+    badges: `<span class="green">Marketing Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 2,
     name: "Shreya Sharma",
     avatar: "../assets/img/team/Shreya_Sharma.jpeg",
+    badges: `<span class="green">Marketing Team</span>`,
     socialLinkedinLink: "",
   },
 ];
@@ -138,18 +146,21 @@ let rdMemberDetails2023 = [
     id: 0,
     name: "Anushree Jha",
     avatar: "../assets/img/team/Anushree_Jha.jpeg",
+    badges: `<span class="green">R&D Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 1,
     name: "Amrita Goswami",
     avatar: "../assets/img/team/Amrita_Goswami.jpeg",
+    badges: `<span class="green">R&D Team</span>`,
     socialLinkedinLink: "",
   },
   {
     id: 2,
     name: "Sanjana",
     avatar: "../assets/img/team/Sanjana.jpeg",
+    badges: `<span class="green">R&D Team</span>`,
     socialLinkedinLink: "",
   },
 ];
